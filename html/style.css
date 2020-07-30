@@ -1,0 +1,169 @@
+#heroContainer {
+    position: relative;
+    background-image: url("./../images/iterrrrr.jpg");
+    height: 822px;
+    background-position: center;
+}
+#logoTitle {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    font-size: 64px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 700;    
+}
+#navContainer {
+    position: absolute;
+    top: 70px;
+    right: 75px;
+}
+.navItem {
+    font-family: Helvetica;
+    font-weight: 600;
+    display: inline-block;
+    color: white; 
+    margin-left: 35px;   
+}
+#inputsContainer {
+    position: relative;
+    border-radius: 20px;
+    top: -75px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(198, 198, 198);    
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+.inputTitle {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* Input Titles */
+#fromDiv {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+#destinationDiv{
+    position: absolute;
+    top: 35px;
+    left: 215px;
+}
+#departureDiv {
+    position: absolute;
+    top: 35px;
+    left: 420px;
+}
+#returnDiv {
+    position: absolute;
+    top: 35px;
+    left: 550px;
+}
+#passengersDiv{
+    position: absolute;
+    top: 115px;
+    left: 25px;
+}
+#classDiv {
+    position: absolute;
+    top: 115px;
+    left: 215px;
+}
+/* Input Containers */
+#fromInput {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+}
+#desintationInput {
+    position: absolute;
+    top: 55px;
+    left: 215px;
+}
+#departureInput { 
+    position: absolute;
+    top: 55px;
+    left: 420px;
+}
+#returnInput {
+    position: absolute;
+    top: 55px;
+    left: 550px;
+}
+#passengerInput {
+    position: absolute;
+    top: 135px;
+    left: 25px;
+}
+#classInput {
+    position: absolute;
+    top: 135px;
+    left: 215px;
+}
+#searchButtonContainer {
+    position: absolute;
+    top: 135px;
+    left: 420px;
+    background-color: #f7eeab;
+    border-radius: 7px;
+    display: inline-block;
+    width: 250px;
+    height: 27px;
+    border: .5px solid black;
+}
+#searchButtonText {
+    margin-top: 4px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+/* Input Elements */
+#fromInputElement {
+    width: 170px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#destinationInputElement {
+    width: 170px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#departureInputElement {
+    width: 113px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#returnInputElement {
+    width: 113px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#passengerInputElement {
+    width: 170px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+#classInputElement {
+    width: 170px;
+    height: 25px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    margin-right: 40px;
+    margin-left: 40px;
+    text-decoration: none;
+}
